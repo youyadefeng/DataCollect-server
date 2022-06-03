@@ -3,9 +3,11 @@ import java.sql.*;
 
 public class BaseDao {
     private static String driver="com.mysql.cj.jdbc.Driver";
+    //database url
     private static String databaseName = "app";
     private static String url="jdbc:mysql://localhost:3306/" + databaseName;
-    //server
+
+    //mysql logon
     private static String user="data_collect";
     private static String password="weias2008";
 
